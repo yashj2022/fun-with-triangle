@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <h3 class="heading">Fun with Triangle</h3>
+        <a  href="index.html" class="link">Is Triangle</a>
+        
+        <a href="quiz.html" class="link">Triangle Quiz</a>
+
+        <a href="hype.html" class="link">Calculate Hypotenuse</a>
+
+        <a href="area.html" class="link">Area of Triangle</a>
+    </nav>    
+    <h1>Triangle Quiz</h1>
+    <form id="quizForm">
+        <p class="quiz-ques">※ What is the third angle of Triangle if angle1=45°,angel2=90°?</p>
+       <label><input type="radio" name="question1" value="45°" />45°</label> 
+       <label><input type="radio" name="question1" value=">60°" />60°</label>  
+       <label><input type="radio" name="question1" value="90°" />90°</label> 
+
+       <p class="quiz-ques"> ※ If a Triangle has an angel of 60° what it is called ?</p>
+       <label><input type="radio" name="question2" value="acute triangle" />acute triangle</label> 
+       <label><input type="radio" name="question2" value="obtuse triangle" />obtuse triangle</label>  
+       <label><input type="radio" name="question2" value="equilateral triangle" />equilateral triangle</label> 
+
+       <p class="quiz-ques"> ※ What is area of a triangle with base 10 and height 25 ?</p>
+       <label><input type="radio" name="question3" value="125" />125</label> 
+       <label><input type="radio" name="question3" value="200" />200</label>  
+       <label><input type="radio" name="question3" value="250" />250</label> 
+
+       <p class="quiz-ques"> ※ What is the Hypotenuse of a triangle wiht the sides 3 and 4 ?</p>
+       <label><input type="radio" name="question4" value="7" />7</label> 
+       <label><input type="radio" name="question4" value="9" />9</label>  
+       <label><input type="radio" name="question4" value="5" />5</label> 
+    </form>
+    <div id="outputBox"></div>
+    <button id="submitAnswer"> Submit</button>
+      <script src="quiz.js"></script>
+</body>
+</html>
